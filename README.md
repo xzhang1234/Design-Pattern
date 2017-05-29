@@ -18,6 +18,15 @@
 4. Factory Method == Virtual Constructor
 	
 	Since there is no virtual constructor, we use another method to imitate the constructor. The imitating constructor is essentially polymorphism.
+
+5. Abstract Factory vs. Factory Method
+
+	https://stackoverflow.com/questions/5739611/differences-between-abstract-factory-pattern-and-factory-method
+
+6. Command  
+	Create Command class with receiver, Invoker calls the execute() in Command, Application coordinates commands and invokers.
+	
+
 	
 	
 ### OO programming:  
