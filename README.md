@@ -26,8 +26,9 @@
 6. Command  
 	Create Command class with receiver, Invoker calls the execute() in Command, Application coordinates commands and invokers.
 	
+7. Adaptor && Facade  
+	Easy implementation with composition
 
-	
 	
 ### OO programming:  
 1. Ways to extend a class: 
