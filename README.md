@@ -29,6 +29,8 @@
 7. Adaptor && Facade  
 	Easy implementation with composition
 
+8. Template method  
+	Template method is similar to factory method. Factory method delays the object creation to subclasses, Template method delays the implementation of method to subclasses. They all utilize polymorphism.  
 	
 ### OO programming:  
 1. Ways to extend a class: 
