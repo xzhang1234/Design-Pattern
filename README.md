@@ -4,7 +4,7 @@
 -- Realize different behavior of objects, utilize different strategies
 -- Change objects' behaviors or strategies on runtime  
 - Implementation:  
--- Delegation
+-- Delegation  
 -- To realize different strategies/behaviors of objects, the object can include an interface of the behavior, and choose different implementations of the interface to realize different the behaviors. 
 2. Factory  
 Three factory related patterns are introduced by Head First, simple factory, factory method, abstract factory.
