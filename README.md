@@ -1,5 +1,11 @@
 ### Design pattern 
-1. Strategy v.s. Decorator  
+1. Strategy  
+To realize different strategies/behaviors of objects, the object can include an interface of the behavior, and choose different implementations of the interface to realize different the behaviors. Essential is polymophism.  
+2. 
+
+Strategy, observer, decorator, factory
+
+1. Strategy v.s. Decorator  
 
 	Suppose the final object is a person who has different clothes.  
 
