@@ -8,16 +8,20 @@
 -- To realize different strategies/behaviors of objects, the object can include an interface of the behavior, and choose different implementations of the interface to realize different the behaviors. 
 2. Factory Method  
 - Intent:  
--- Defer initialization to subclass  
-- Implementation:
+-- Eliminate the dependency on the implementation in subclass by defering initialization to subclass  
+- Implementation:  
 -- Inheritance  
--- The class which needs "object" creates an abstract factory method, its subclasses override the abstract factory method to return concrete "object".  
-
+-- The class which needs "object" creates an abstract factory method, its subclasses override the abstract factory method to return concrete "object".
+3. Abstract Factory  
+- Intent:  
+-- Create a group related objects  
+- Implementation:  
+-- Composition and delegation  
+-- Client composes an abstract factory, and delegate the object creation to concrete factory.  
+-- For each object, abstract factory, concrete factory is the pattern of factory method.  
 https://stackoverflow.com/questions/616796/what-is-the-difference-between-factory-and-strategy-patterns
-https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1
-
-Strategy, factory, decorator
-observer, 
+https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1  
+4. Command  
 
 1. Strategy v.s. Decorator  
 
