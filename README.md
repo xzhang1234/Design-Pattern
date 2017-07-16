@@ -26,9 +26,13 @@ https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between
 -- Decouple the command requester (sender) and command executor(receiver)  
 - Implementation:  
 -- Combine receiver and operation as a command, and only expose execute()  
-https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern?rq=1
-
-
+https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern?rq=1  
+5. Template Method  
+- Intent:  
+-- Define the backbone procedure of a method  
+- Implementation:  
+-- Polymophorism  
+6. 
 1. Strategy v.s. Decorator  
 
 	Suppose the final object is a person who has different clothes.  
