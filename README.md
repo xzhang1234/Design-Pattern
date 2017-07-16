@@ -22,6 +22,12 @@
 https://stackoverflow.com/questions/616796/what-is-the-difference-between-factory-and-strategy-patterns
 https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1  
 4. Command  
+- Intent:  
+-- Decouple the command requester (sender) and command executor(receiver)  
+- Implementation:  
+-- Combine receiver and operation as a command, and only expose execute()  
+https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern?rq=1
+
 
 1. Strategy v.s. Decorator  
 
