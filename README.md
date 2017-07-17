@@ -44,7 +44,20 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 -- define iteration control variable as object fields  
 -- hasNext(), boundary check  
 -- next(), return current object, and then increment control variable  
-8. 
+8. State  
+- Intent:  
+-- A perfect way to realize state machine  
+-- Same interface of operation regardless of the inner state of the object  
+- Implementation:  
+-- Wrap each state as an object  
+-- Delegate operation to individual state  
+
+
+
+9.
+
+
+
 1. Strategy v.s. Decorator  
 
 	Suppose the final object is a person who has different clothes.  
