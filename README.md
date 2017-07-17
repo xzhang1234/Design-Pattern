@@ -1,5 +1,51 @@
 ### Design pattern 
-1. Strategy v.s. Decorator  
+1. Strategy  
+- Intent:  
+-- Realize different behavior of objects, utilize different strategies
+-- Change objects' behaviors or strategies on runtime  
+- Implementation:  
+-- Delegation  
+-- To realize different strategies/behaviors of objects, the object can include an interface of the behavior, and choose different implementations of the interface to realize different the behaviors. 
+2. Factory Method  
+- Intent:  
+-- Eliminate the dependency on the implementation in subclass by defering initialization to subclass  
+- Implementation:  
+-- Inheritance  
+-- The class which needs "object" creates an abstract factory method, its subclasses override the abstract factory method to return concrete "object".
+3. Abstract Factory  
+- Intent:  
+-- Create a group related objects  
+- Implementation:  
+-- Composition and delegation  
+-- Client composes an abstract factory, and delegate the object creation to concrete factory.  
+-- For each object, abstract factory, concrete factory is the pattern of factory method.  
+https://stackoverflow.com/questions/616796/what-is-the-difference-between-factory-and-strategy-patterns
+https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1  
+4. Command  
+- Intent:  
+-- Decouple the command requester (sender) and command executor(receiver)  
+- Implementation:  
+-- Combine receiver and operation as a command, and only expose execute()  
+https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern?rq=1  
+5. Template Method  
+- Intent:  
+-- Define the backbone procedure of a method  
+- Implementation:  
+-- Polymophorism  
+6. Composite  
+- Intent:  
+-- Group objects  
+- Implementation:  
+-- Include a list of selfies in class definition  
+7. Iterator  
+- Intent:  
+-- iterate a collection of objects without knowing the implmentation of collection  
+- Implementation:  
+-- define iteration control variable as object fields  
+-- hasNext(), boundary check  
+-- next(), return current object, and then increment control variable  
+8. 
+1. Strategy v.s. Decorator  
 
 	Suppose the final object is a person who has different clothes.  
 
