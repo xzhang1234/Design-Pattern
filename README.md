@@ -32,7 +32,19 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 -- Define the backbone procedure of a method  
 - Implementation:  
 -- Polymophorism  
-6. 
+6. Composite  
+- Intent:  
+-- Group objects  
+- Implementation:  
+-- Include a list of selfies in class definition  
+7. Iterator  
+- Intent:  
+-- iterate a collection of objects without knowing the implmentation of collection  
+- Implementation:  
+-- define iteration control variable as object fields  
+-- hasNext(), boundary check  
+-- next(), return current object, and then increment control variable  
+8. 
 1. Strategy v.s. Decorator  
 
 	Suppose the final object is a person who has different clothes.  
