@@ -51,10 +51,9 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 - Implementation:  
 -- Wrap each state as an object  
 -- Delegate operation to individual state  
-
-
-
-9.
+9. Proxy  
+10. Decorator  
+11. Facade
 
 
 
@@ -90,17 +89,3 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 
 8. Template method  
 	Template method is similar to factory method. Factory method delays the object creation to subclasses, Template method delays the implementation of method to subclasses. They all utilize polymorphism.  
-	
-### OO programming:  
-1. Ways to extend a class: 
-
-	- Extending class inherits extended class  
-  		- override functions in super class  
-  		- add new functions  
-	- Extending class includes extended class  
-  		- add new functions
-	- Extending class implements extra interfaces
-
-
-
-
