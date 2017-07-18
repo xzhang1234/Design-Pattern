@@ -1,4 +1,4 @@
-### Design pattern  
+### Design Pattern  
 #### Creation:  
 1. Singleton  
 - Intent:  
@@ -21,6 +21,7 @@
 -- From each object creation, the abstract factory and concrete factory follow the pattern of factory method.  
 4. Builder (To do)  
 5. Prototype (To do)  
+
 #### Behavior:  
 4. Strategy  
 - Intent:  
@@ -41,8 +42,6 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 - Implementation:  
 -- Polymophorism  
 7. Observer  
-
-
 8. State  
 - Intent:  
 -- A perfect way to realize state machine  
@@ -61,10 +60,16 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 #### Structure:  
 10. Composite  
 - Intent:  
--- Group objects  
+-- Group objects in tree structure  
 - Implementation:  
 -- Include a list of selfies in class definition  
 11. Decorator  
+- Intent:  
+-- Extends functionality with composition  
+- Implementation:  
+-- Extends and contains the extended class at the same time  
+-- "Extend" makes sure the extending class is still the extended class  
+-- "Contain" keeps the original functionality of the extended class  
 12. Facade
 13. Adapter  
 - Intent:  
@@ -72,6 +77,7 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 - Implementation:  
 -- Adapter implements the target interface (so the adapter is an instance of the interface) while delegates the function call to the adaptee
 14. Proxy  
+15. Bridge (To do)  
 
 Reference:  
 1. Head First Design Pattern
