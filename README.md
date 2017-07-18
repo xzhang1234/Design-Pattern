@@ -19,8 +19,7 @@
 -- Composition and delegation  
 -- Client composes an abstract factory, and delegate the object creation to concrete factory.  
 -- For each object, abstract factory, concrete factory is the pattern of factory method.  
-https://stackoverflow.com/questions/616796/what-is-the-difference-between-factory-and-strategy-patterns
-https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1   
+  
 #### Behavior:  
 4. Strategy  
 - Intent:  
@@ -69,5 +68,10 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 13. Adapter  
 14. Proxy  
 
-
-
+Reference:  
+1. Head First Design Pattern
+2. https://www.tutorialspoint.com/design_pattern  
+3. GoF, Design Patterns: Elements of Reusable Object-Oriented Software  
+4. Stack overflow:  
+https://stackoverflow.com/questions/616796/what-is-the-difference-between-factory-and-strategy-patterns
+https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns?rq=1 
