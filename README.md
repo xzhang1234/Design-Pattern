@@ -8,17 +8,17 @@
 -- Static instance and getInstance method  
 2. Factory Method  
 - Intent:  
--- Eliminate the dependency on the implementation in subclass by defering initialization to subclass  
+-- Defer instantiation to subclass, eliminate the dependency on specific subclasses  
 - Implementation:  
 -- Inheritance  
 -- The class which needs "object" creates an abstract factory method, its subclasses override the abstract factory method to return concrete "object".
 3. Abstract Factory  
 - Intent:  
--- Create a group related objects  
+-- Create a group of related objects  
 - Implementation:  
 -- Composition and delegation  
--- Client composes an abstract factory, and delegate the object creation to concrete factory.  
--- For each object, abstract factory, concrete factory is the pattern of factory method.  
+-- Client contains a reference of a concrete factory, and delegate the objects creation to concrete factory.  
+-- From each object creation, the abstract factory and concrete factory follow the pattern of factory method.  
   
 #### Behavior:  
 4. Strategy  
