@@ -67,10 +67,14 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 - Intent:  
 -- Extends functionality with composition  
 - Implementation:  
--- Extends and contains the extended class at the same time  
--- "Extend" makes sure the extending class is still the extended class  
--- "Contain" keeps the original functionality of the extended class  
-12. Facade
+-- Decorator extends and contains the decorated component at the same time.  
+-- "Extend" makes sure the decorator is still an instance of the decorated component class, and can be further decorated.    
+-- "Contain" makes delegation possible.  
+12. Facade  
+- Intent:  
+-- Define and expose an easier interface  
+- Implementation:  
+-- 
 13. Adapter  
 - Intent:  
 -- Convert interface of a class to another  
@@ -78,7 +82,7 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 -- Adapter implements the target interface (so the adapter is an instance of the interface) while delegates the function call to the adaptee
 14. Proxy  
 15. Bridge (To do)  
-
+16. FlyWeight (To do)  
 Reference:  
 1. Head First Design Pattern
 2. https://www.tutorialspoint.com/design_pattern  
