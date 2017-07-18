@@ -67,6 +67,10 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 11. Decorator  
 12. Facade
 13. Adapter  
+- Intent:  
+-- Convert interface of a class to another  
+- Implementation:  
+-- Adapter implements the target interface (so the adapter is an instance of the interface) while delegates the function call to the adaptee
 14. Proxy  
 
 Reference:  
