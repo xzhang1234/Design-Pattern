@@ -11,7 +11,7 @@
 -- Defer instantiation to subclass, eliminate the dependency on specific subclasses  
 - Implementation:  
 -- Inheritance  
--- The class which needs "object" creates an abstract factory method, its subclasses override the abstract factory method to return concrete "object".
+-- The class which needs/uses "object" (Creator) creates an abstract factory method, its subclasses override the abstract factory method and return concrete "object".
 3. Abstract Factory  
 - Intent:  
 -- Create a group of related objects  
@@ -19,7 +19,8 @@
 -- Composition and delegation  
 -- Client contains a reference of a concrete factory, and delegate the objects creation to concrete factory.  
 -- From each object creation, the abstract factory and concrete factory follow the pattern of factory method.  
-  
+4. Builder (To do)  
+5. Prototype (To do)  
 #### Behavior:  
 4. Strategy  
 - Intent:  
