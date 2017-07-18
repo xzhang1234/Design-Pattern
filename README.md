@@ -23,67 +23,75 @@
 5. Prototype (To do)  
 
 #### Behavior:  
-4. Strategy  
+6. Strategy  
 - Intent:  
 -- Realize different behavior of objects, utilize different strategies
 -- Change objects' behaviors or strategies on runtime  
 - Implementation:  
 -- Delegation  
 -- To realize different strategies/behaviors of objects, the object can include an interface of the behavior, and choose different implementations of the interface to realize different the behaviors.  
-5. Command  
+7. Command  
 - Intent:  
 -- Decouple the command requester (sender) and command executor(receiver)  
 - Implementation:  
 -- Combine receiver and operation as a command, and only expose execute()  
 https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern?rq=1  
-6. Template Method  
+8. Template Method  
 - Intent:  
 -- Define the backbone procedure of a method  
 - Implementation:  
 -- Polymophorism  
-7. Observer  
-8. State  
+9. Observer  
+10. State  
 - Intent:  
 -- A perfect way to realize state machine  
 -- Same interface of operation regardless of the inner state of the object  
 - Implementation:  
 -- Wrap each state as an object  
 -- Delegate operation to individual state  
-9. Iterator  
+11. Iterator  
 - Intent:  
 -- iterate a collection of objects without knowing the implmentation of collection  
 - Implementation:  
 -- define iteration control variable as object fields  
 -- hasNext(), boundary check  
 -- next(), return current object, and then increment control variable  
+12. Chain of responsibility (To do)  
+13. Interpreter (To do)  
+14. Mediator (To do)  
+15. Memento (To do)  
+16. Visitor (To do)  
 
 #### Structure:  
-10. Composite  
+17. Composite  
 - Intent:  
 -- Group objects in tree structure  
 - Implementation:  
 -- Include a list of selfies in class definition  
-11. Decorator  
+18. Decorator  
 - Intent:  
 -- Extends functionality with composition  
 - Implementation:  
 -- Decorator extends and contains the decorated component at the same time.  
 -- "Extend" makes sure the decorator is still an instance of the decorated component class, and can be further decorated.    
 -- "Contain" makes delegation possible.  
-12. Facade  
+19. Facade  
 - Intent:  
--- Define and expose an easier interface  
+-- Define and expose an easier interface and hence hide the complicated inner class call
 - Implementation:  
--- 
-13. Adapter  
+-- Composition  
+20. Adapter  
 - Intent:  
 -- Convert interface of a class to another  
 - Implementation:  
 -- Adapter implements the target interface (so the adapter is an instance of the interface) while delegates the function call to the adaptee
-14. Proxy  
-15. Bridge (To do)  
-16. FlyWeight (To do)  
-Reference:  
+21. Proxy  
+- Intent:  
+
+22. Bridge (To do)  
+23. FlyWeight (To do)  
+
+#### Reference:  
 1. Head First Design Pattern
 2. https://www.tutorialspoint.com/design_pattern  
 3. GoF, Design Patterns: Elements of Reusable Object-Oriented Software  
