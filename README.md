@@ -87,7 +87,9 @@ https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-comma
 -- Adapter implements the target interface (so the adapter is an instance of the interface) while delegates the function call to the adaptee
 21. Proxy  
 - Intent:  
-
+-- Provide a barrier between client and the real object, and hence can (1) control access, (2) add extra functionality. The proxy can also serve as a placeholder for the real object and initialize the real object on demand.  
+- Implementation:  
+- Composition and delegation  
 22. Bridge (To do)  
 23. FlyWeight (To do)  
 
